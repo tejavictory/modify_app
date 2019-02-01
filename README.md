@@ -22,5 +22,8 @@ But, according to this program, Bucket sort is fast.
 1. Sort button
 1. Modified to specify the algorithm name in the finish message box.
 
-[](https://github.com/tejavictory/modify_app "Repo Link")
+### Screenshot
+![](https://github.com/tejavictory/modify_app/raw/master/2019-02-01.png)
+
+
 
