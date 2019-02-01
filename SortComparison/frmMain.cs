@@ -32,7 +32,7 @@ namespace SortComparison
             this.tbSamples.Value = 800;
             this.cboAlg1.SelectedIndex = 3;
             this.cboAlg2.SelectedIndex = 12;
-            InitializeOutputFolder();
+            this.txtOutputFolder.Text=InitializeOutputFolder();
             this.cmdSort.BackColor = Color.Blue;
             this.cmdShuffle.PerformClick();
         }
@@ -253,6 +253,7 @@ namespace SortComparison
         
         private void btnSelectFolder_Click(object sender, EventArgs e)
         {
+
             if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
             {
                 this.txtOutputFolder.Text = folderBrowserDialog1.SelectedPath;
@@ -261,7 +262,7 @@ namespace SortComparison
 
         private string InitializeOutputFolder()
         {
-            return AppDomain.CurrentDomain.BaseDirectory.ToString() + "\\output";
+            return AppDomain.CurrentDomain.BaseDirectory.ToString() + "output";
         }
 
         private void pnlSort1_Click(object sender, EventArgs e)
