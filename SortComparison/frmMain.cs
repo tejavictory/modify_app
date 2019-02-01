@@ -34,6 +34,7 @@ namespace SortComparison
             this.cboAlg2.SelectedIndex = 12;
             InitializeOutputFolder();
             this.cmdSort.BackColor = Color.Blue;
+            this.cmdShuffle.PerformClick();
         }
 
         public void Randomize(IList list)
