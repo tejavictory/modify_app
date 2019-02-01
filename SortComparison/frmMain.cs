@@ -32,6 +32,7 @@ namespace SortComparison
             this.tbSamples.Value = 800;
             this.cboAlg1.SelectedIndex = 3;
             this.cboAlg2.SelectedIndex = 12;
+            InitializeOutputFolder();
         }
 
         public void Randomize(IList list)
