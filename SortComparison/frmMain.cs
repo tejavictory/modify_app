@@ -33,6 +33,7 @@ namespace SortComparison
             this.cboAlg1.SelectedIndex = 3;
             this.cboAlg2.SelectedIndex = 12;
             InitializeOutputFolder();
+            this.cmdSort.BackColor = Color.Blue;
         }
 
         public void Randomize(IList list)
